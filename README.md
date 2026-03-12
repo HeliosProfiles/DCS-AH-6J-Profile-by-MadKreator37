@@ -23,9 +23,8 @@ This profile was designed and created by myself, in close collaboration with Blu
 
 
 ### IMAGES
-
-
-
+<img width="960" height="540" alt="Screenshot 2026-03-11 220751" src="https://github.com/user-attachments/assets/d643ed75-4747-4ebd-91f2-22384765dc3f" />
+<img width="960" height="540" alt="Screenshot 2026-03-11 221036" src="https://github.com/user-attachments/assets/7688b802-8d38-4b22-9974-0cc11303f892" />
 
 
 ### ENJOY!
