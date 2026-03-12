@@ -1,0 +1,35 @@
+<ControlTemplate>
+    <Name>ARC-210 Viewport</Name>
+    <Category>AH-6J Little Bird</Category>
+    <TypeIdentifier>Helios.Base.ViewportExtent</TypeIdentifier>
+    <Template>
+        <TemplateValues>
+          <FillBackground>True</FillBackground>
+          <BackgroundColor>#80DB2929</BackgroundColor>
+          <FontColor>#FFFFFFFF</FontColor>
+          <Font>
+            <FontFamily>Franklin Gothic</FontFamily>
+            <FontStyle>Normal</FontStyle>
+            <FontWeight>Normal</FontWeight>
+            <FontSize>12</FontSize>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Center</VerticalAlignment>
+            <Padding>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Right>0</Right>
+              <Bottom>0</Bottom>
+            </Padding>
+          </Font>
+          <Text>AH6_ARC210</Text>
+          <ScalingMode>None</ScalingMode>
+          <Location>213,503</Location>
+          <Size>290,90</Size>
+          <Hidden>False</Hidden>
+          <EffectsExclusion>True</EffectsExclusion>
+          <ViewportName>AH6_ARC210</ViewportName>
+          <RequiresPatches>True</RequiresPatches>
+          <Children />
+        </TemplateValues>
+    </Template>
+</ControlTemplate>
