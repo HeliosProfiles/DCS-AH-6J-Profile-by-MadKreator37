@@ -13,11 +13,11 @@ on:
   workflow_dispatch:
 
 env:
-  VEHICLE: _vehicle
-  VEHICLECOMMONNAME: _aircraft
-  MINHELIOSRELEASE: _minheliosrelease
-  PROFILENAME: _aircraft__author
-  AUTHOR: _author
+  VEHICLE: AH-6J
+  VEHICLECOMMONNAME: AH-6J
+  MINHELIOSRELEASE: 1.6.618
+  PROFILENAME: AH-6J_MadKreator37
+  AUTHOR: MadKreator37
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
