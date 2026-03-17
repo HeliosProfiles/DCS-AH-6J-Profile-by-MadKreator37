@@ -4061,15 +4061,15 @@
                 <HorizontalAlignment>Left</HorizontalAlignment>
                 <VerticalAlignment>Center</VerticalAlignment>
                 <Padding>
-                  <Left>0.0371971916120333</Left>
+                  <Left>0</Left>
                   <Top>0</Top>
-                  <Right>0.0371971916120333</Right>
+                  <Right>0</Right>
                   <Bottom>0</Bottom>
                 </Padding>
               </Font>
               <OnTextColor>#FF40B329</OnTextColor>
               <BackgroundColor>#FF000000</BackgroundColor>
-              <TextTest>43*2.578N115*52.315E</TextTest>
+              <TextTest>43*2578N115*52315E  </TextTest>
               <ParserDictionary>*=°</ParserDictionary>
               <UseBackground>True</UseBackground>
               <UseParserDictionary>True</UseParserDictionary>
@@ -4084,24 +4084,24 @@
                 <FontFamily>Helios Virtual Cockpit LED Dots 5x7 Regular</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
-                <FontSize>    *         *    </FontSize>
+                <FontSize>26</FontSize>
                 <HorizontalAlignment>Left</HorizontalAlignment>
                 <VerticalAlignment>Center</VerticalAlignment>
                 <Padding>
-                  <Left>0.0371971916120333</Left>
+                  <Left>0</Left>
                   <Top>0</Top>
-                  <Right>0.0371971916120333</Right>
+                  <Right>0</Right>
                   <Bottom>0</Bottom>
                 </Padding>
               </Font>
               <OnTextColor>#FF40B329</OnTextColor>
               <BackgroundColor>#FF000000</BackgroundColor>
-              <TextTest>O</TextTest>
+              <TextTest>    .         .    </TextTest>
               <ParserDictionary />
               <UseBackground>False</UseBackground>
               <UseParserDictionary>False</UseParserDictionary>
               <ScalingMode>Height</ScalingMode>
-              <Location>70,93</Location>
+              <Location>69,93</Location>
               <Size>420,55</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -4115,9 +4115,9 @@
                 <HorizontalAlignment>Left</HorizontalAlignment>
                 <VerticalAlignment>Center</VerticalAlignment>
                 <Padding>
-                  <Left>0.0371971916120333</Left>
+                  <Left>0</Left>
                   <Top>0</Top>
-                  <Right>0.0371971916120333</Right>
+                  <Right>0</Right>
                   <Bottom>0</Bottom>
                 </Padding>
               </Font>
