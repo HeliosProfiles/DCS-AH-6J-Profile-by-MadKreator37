@@ -502,7 +502,7 @@
           </Interaction>
           <Children>
             <Control TypeIdentifier="Helios.Base.Image" Name="Image 2" SnapTarget="False" Locked="False">
-              <Image>MadKreator37\UH-60L\Controls_Ind\Vertical_Percent_Gauge.png</Image>
+              <Image>MadKreator37\AH-6J\Control_Indicator\Vertical_Percent_Gauge.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <Location>17,35</Location>
@@ -511,7 +511,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Image" Name="Image 1" SnapTarget="False" Locked="False">
-              <Image>MadKreator37\UH-60L\Controls_Ind\Horizontal_Percent_Gauge.png</Image>
+              <Image>MadKreator37\AH-6J\Control_Indicator\Horizontal_Percent_Gauge.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <Location>38,223</Location>
@@ -523,7 +523,7 @@
               <Location>1,27</Location>
               <Size>214,214</Size>
               <Hidden>False</Hidden>
-              <TapeImage>MadKreator37\UH-60L\Controls_Ind\Slip_Ball_Reapeater_Throttle.png</TapeImage>
+              <TapeImage>MadKreator37\AH-6J\Control_Indicator\Slip_Ball_Reapeater_Throttle.png</TapeImage>
               <OffFlagImage />
               <ForegroundImage />
               <BackgroundImage />
@@ -559,7 +559,7 @@
               <Location>27,38</Location>
               <Size>214,214</Size>
               <Hidden>False</Hidden>
-              <TapeImage>MadKreator37\UH-60L\Controls_Ind\Slip_Ball_Reapeater.png</TapeImage>
+              <TapeImage>MadKreator37\AH-6J\Control_Indicator\Slip_Ball_Reapeater.png</TapeImage>
               <OffFlagImage />
               <ForegroundImage />
               <BackgroundImage />
@@ -606,7 +606,7 @@
                   <Location>0,0</Location>
                   <Size>189,188</Size>
                   <Hidden>False</Hidden>
-                  <Image>Misc\Cyclic_Center_Gauge_Wrapper_2.png</Image>
+                  <Image>MadKreator37\AH-6J\Control_Indicator\Cyclic_Center_3D_Gauge_Wrapper.png</Image>
                   <Properties3D>
                     <InitialAngleX>0</InitialAngleX>
                     <InitialAngleY>0</InitialAngleY>
@@ -648,7 +648,7 @@
               </Children>
             </Control>
             <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2 1" SnapTarget="False" Locked="False">
-              <Image>MadKreator37\UH-60L\Controls_Ind\Cylinder1.png</Image>
+              <Image>MadKreator37\AH-6J\Control_Indicator\Cylinder1.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <DefaultOpacity>0.176333780444034</DefaultOpacity>
@@ -662,7 +662,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2" SnapTarget="False" Locked="False">
-              <Image>MadKreator37\UH-60L\Controls_Ind\Cylinder1.png</Image>
+              <Image>MadKreator37\AH-6J\Control_Indicator\Cylinder1.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <DefaultOpacity>0.194878882819867</DefaultOpacity>
@@ -688,7 +688,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Image" Name="multi function gauge panel" SnapTarget="False" Locked="False">
-              <Image>MadKreator37\UH-60L\Controls_Ind\Multi_Function_Gauge.png</Image>
+              <Image>MadKreator37\AH-6J\Control_Indicator\Multi_Function_Gauge.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <Location>6,6</Location>
