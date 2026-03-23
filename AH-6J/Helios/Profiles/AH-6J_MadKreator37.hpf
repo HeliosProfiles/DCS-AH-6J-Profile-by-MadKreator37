@@ -6154,16 +6154,6 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS AH-6J Little Bird (Community Mod)" Name="Displays.TNL3100 Line 2 Just Periods.changed" />
-      <Action Target="Visual;Monitor 1.Console.tnl lower display dots;Helios.Base.TextDisplay;tnl lower display dots" Name="set.TextDisplay" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS AH-6J Little Bird (Community Mod)" Name="Displays.TNL3100 Line 2 No Periods.changed" />
-      <Action Target="Visual;Monitor 1.Console.tnl lower display;Helios.Base.TextDisplay;tnl lower display" Name="set.TextDisplay" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS AH-6J Little Bird (Community Mod)" Name="Displays.TNL3100 Line 1.changed" />
       <Action Target="Visual;Monitor 1.Console.tnl upper display;Helios.Base.TextDisplay;tnl upper display" Name="set.TextDisplay" />
       <TriggerValue />
@@ -6516,6 +6506,11 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS AH-6J Little Bird (Community Mod)" Name="Instruments.Radar Altimeter Off Flag.changed" />
       <Action Target="Visual;Monitor 1.Right Hidable Panel for Console.Radar_Alt.off flag;Helios.Base.CustomGauge;off flag" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS AH-6J Little Bird (Community Mod)" Name="Displays.TNL3100 Line 2.changed" />
+      <Action Target="Visual;Monitor 1.Console.tnl lower display;Helios.Base.TextDisplay;tnl lower display" Name="set.TextDisplay" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
