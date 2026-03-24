@@ -27,6 +27,9 @@ This profile was designed and created by myself, in close collaboration with Blu
 <img width="960" height="540" alt="Screenshot 2026-03-11 221036" src="https://github.com/user-attachments/assets/7688b802-8d38-4b22-9974-0cc11303f892" />
 
 
+### KNOWN ISSUES
+- Flashing warning indicators and cursors will sometimes get out of sync with the in-game devices. 
+
 ### ENJOY!
 
 
