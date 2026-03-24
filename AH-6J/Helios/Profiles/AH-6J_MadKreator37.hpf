@@ -1470,7 +1470,7 @@
                 </Control>
                 <Control TypeIdentifier="Helios.Base.TextDisplay" Name="TextDisplay 1 1 2" SnapTarget="True" Locked="False">
                   <Font>
-                    <FontFamily>Helios Virtual Cockpit LED Dots 5x7 Italic</FontFamily>
+                    <FontFamily>Helios Virtual Cockpit LED Dots 5x7 Italic Regular</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
                     <FontSize>29</FontSize>
