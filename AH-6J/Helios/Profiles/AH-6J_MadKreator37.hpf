@@ -1101,8 +1101,8 @@
                   <Location>0,0</Location>
                   <Size>132,132</Size>
                   <Hidden>False</Hidden>
-                  <BGPlateImage>MadKreator37/AH-6J/Bezels_And_Faces/AH-6J_Fuel_Inner_Mask.xaml</BGPlateImage>
-                  <KnobImage>MadKreator37/AH-6J/Bezels_And_Faces/AH-6J_Fuel_Gauge.xaml</KnobImage>
+                  <BGPlateImage>MadKreator37/AH-6J/XAML/AH-6J_Fuel_Inner_Mask.xaml</BGPlateImage>
+                  <KnobImage>MadKreator37/AH-6J/XAML/AH-6J_Fuel_Gauge.xaml</KnobImage>
                   <Needle_Scale>1</Needle_Scale>
                   <Needle_PosX>0</Needle_PosX>
                   <Needle_PosY>0</Needle_PosY>
@@ -1121,7 +1121,7 @@
                   <Size>132,132</Size>
                   <Hidden>False</Hidden>
                   <Background>
-                    <Image>MadKreator37/AH-6J/Bezels_And_Faces/AH-6J_Fuel_Outer_Mask.xaml</Image>
+                    <Image>MadKreator37/AH-6J/XAML/AH-6J_Fuel_Outer_Mask.xaml</Image>
                     <ImageAlignment>Stretched</ImageAlignment>
                   </Background>
                   <Interaction>
@@ -1137,7 +1137,7 @@
                   <Rotation>CW</Rotation>
                   <Hidden>True</Hidden>
                   <Background>
-                    <Image>MadKreator37/AH-6J/Bezels_And_Faces/AH-6J_Fuel_Outer_Mask.xaml</Image>
+                    <Image>MadKreator37/AH-6J/XAML/AH-6J_Fuel_Outer_Mask.xaml</Image>
                     <ImageAlignment>Stretched</ImageAlignment>
                   </Background>
                   <Interaction>
@@ -2872,7 +2872,7 @@
               <Location>246,70</Location>
               <Size>14,211</Size>
               <Hidden>False</Hidden>
-              <Image>MadKreator37/AH-6J/Bezels_And_Faces/30SegmentBarAH-6J-NR.xaml</Image>
+              <Image>MadKreator37/AH-6J/XAML/30SegmentBarAH-6J-NR.xaml</Image>
               <Alignment>Centered</Alignment>
               <CornerRadius>0</CornerRadius>
               <SegmentCount>30</SegmentCount>
@@ -2882,7 +2882,7 @@
               <Location>188,70</Location>
               <Size>14,211</Size>
               <Hidden>False</Hidden>
-              <Image>MadKreator37/AH-6J/Bezels_And_Faces/30SegmentBarAH-6J-N2.xaml</Image>
+              <Image>MadKreator37/AH-6J/XAML/30SegmentBarAH-6J-N2.xaml</Image>
               <Alignment>Centered</Alignment>
               <CornerRadius>0</CornerRadius>
               <SegmentCount>30</SegmentCount>
@@ -2955,7 +2955,7 @@
               <Location>101,70</Location>
               <Size>15,213</Size>
               <Hidden>False</Hidden>
-              <Image>MadKreator37/AH-6J/Bezels_And_Faces/29SegmentBarAH-6J-Torque.xaml</Image>
+              <Image>MadKreator37/AH-6J/XAML/29SegmentBarAH-6J-Torque.xaml</Image>
               <Alignment>Centered</Alignment>
               <CornerRadius>0</CornerRadius>
               <SegmentCount>29</SegmentCount>
@@ -2965,7 +2965,7 @@
               <Location>40,70</Location>
               <Size>15,213</Size>
               <Hidden>False</Hidden>
-              <Image>MadKreator37/AH-6J/Bezels_And_Faces/29SegmentBarAH-6J-Temp.xaml</Image>
+              <Image>MadKreator37/AH-6J/XAML/29SegmentBarAH-6J-Temp.xaml</Image>
               <Alignment>Centered</Alignment>
               <CornerRadius>0</CornerRadius>
               <SegmentCount>29</SegmentCount>
