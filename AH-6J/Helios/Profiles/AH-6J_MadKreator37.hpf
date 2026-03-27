@@ -6594,6 +6594,16 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.AMS Panel.Toggle Switch 1 1;Helios.Base.ToggleSwitch;Toggle Switch 1 1" Name="position.changed" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS AH-6J Little Bird (Community Mod)" Name="Weapon System.set.AMS Rocket Single/Pair" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.AMS Panel.Toggle Switch 1 1 1;Helios.Base.ToggleSwitch;Toggle Switch 1 1 1" Name="position.changed" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS AH-6J Little Bird (Community Mod)" Name="Weapon System.set.AMS Rocket Ripple" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.AMS Panel.Three Way Toggle Switch;Helios.Base.ThreeWayToggleSwitch;Three Way Toggle Switch" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS AH-6J Little Bird (Community Mod)" Name="Weapon System.set.AMS L/R Switch" />
       <TriggerValue />
