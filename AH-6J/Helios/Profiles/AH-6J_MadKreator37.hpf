@@ -3056,7 +3056,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Radios" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="Radios" SnapTarget="True" Locked="True">
           <Location>1147,20</Location>
           <Size>732,1050</Size>
           <Hidden>True</Hidden>
@@ -3942,7 +3942,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Console" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="Console" SnapTarget="True" Locked="True">
           <Location>107,21</Location>
           <Size>669,1050</Size>
           <Hidden>True</Hidden>
@@ -4640,7 +4640,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="F_Key Panel ACC" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel" Name="F_Key Panel ACC" SnapTarget="True" Locked="True">
           <Location>1428,743</Location>
           <Size>385,325</Size>
           <Hidden>True</Hidden>
