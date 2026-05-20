@@ -3942,9 +3942,9 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Console" SnapTarget="True" Locked="True">
-          <Location>107,21</Location>
-          <Size>669,1050</Size>
+        <Control TypeIdentifier="Helios.Panel" Name="Console" SnapTarget="True" Locked="False">
+          <Location>4,20</Location>
+          <Size>775,1050</Size>
           <Hidden>True</Hidden>
           <Background />
           <Interaction>
@@ -3953,11 +3953,23 @@
             <AllowInteractionLegacy>False</AllowInteractionLegacy>
           </Interaction>
           <Children>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Fuel Valve" SnapTarget="True" Locked="False">
+              <Location>5,779</Location>
+              <Size>107,252</Size>
+              <Hidden>False</Hidden>
+              <SwitchType>OnOn</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Swipe</ClickType>
+              <PositionOneImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\Fuel_Valve_Off.png</PositionOneImage>
+              <PositionTwoImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\Fuel_Valve_On.png</PositionTwoImage>
+              <DefaultPosition>One</DefaultPosition>
+              <Children />
+            </Control>
             <Control TypeIdentifier="Helios.Base.RectangleFill" Name="low border out 1" SnapTarget="False" Locked="False">
               <Color>#FF9D9378</Color>
               <CornerRadius>0</CornerRadius>
               <Inverse_direction>False</Inverse_direction>
-              <Location>0,778</Location>
+              <Location>107,778</Location>
               <Size>663,3</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -3966,7 +3978,7 @@
               <Color>#FF9D9378</Color>
               <CornerRadius>0</CornerRadius>
               <Inverse_direction>False</Inverse_direction>
-              <Location>0,558</Location>
+              <Location>107,558</Location>
               <Size>663,3</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -3975,7 +3987,7 @@
               <Color>#FF9D9378</Color>
               <CornerRadius>0</CornerRadius>
               <Inverse_direction>False</Inverse_direction>
-              <Location>0,346</Location>
+              <Location>107,346</Location>
               <Size>663,3</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -3984,7 +3996,7 @@
               <Color>#FF000000</Color>
               <CornerRadius>0</CornerRadius>
               <Inverse_direction>False</Inverse_direction>
-              <Location>0,2</Location>
+              <Location>107,2</Location>
               <Size>665,28</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -3993,7 +4005,7 @@
               <Color>#FF000000</Color>
               <CornerRadius>0</CornerRadius>
               <Inverse_direction>False</Inverse_direction>
-              <Location>2,1020</Location>
+              <Location>109,1020</Location>
               <Size>660,28</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -4002,7 +4014,7 @@
               <Color>#FF000000</Color>
               <CornerRadius>0</CornerRadius>
               <Inverse_direction>False</Inverse_direction>
-              <Location>643,0</Location>
+              <Location>750,0</Location>
               <Size>20,1020</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -4011,7 +4023,7 @@
               <Color>#FF000000</Color>
               <CornerRadius>0</CornerRadius>
               <Inverse_direction>False</Inverse_direction>
-              <Location>2,0</Location>
+              <Location>109,0</Location>
               <Size>20,1020</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -4020,7 +4032,7 @@
               <Color>#FF8A8A8A</Color>
               <CornerRadius>0</CornerRadius>
               <Inverse_direction>False</Inverse_direction>
-              <Location>1,0</Location>
+              <Location>108,0</Location>
               <Size>664,3</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -4029,7 +4041,7 @@
               <Color>#FF8A8A8A</Color>
               <CornerRadius>0</CornerRadius>
               <Inverse_direction>False</Inverse_direction>
-              <Location>0,1047</Location>
+              <Location>107,1047</Location>
               <Size>663,3</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -4038,7 +4050,7 @@
               <Color>#FF8A8A8A</Color>
               <CornerRadius>0</CornerRadius>
               <Inverse_direction>False</Inverse_direction>
-              <Location>662,0</Location>
+              <Location>769,0</Location>
               <Size>3,1050</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -4047,7 +4059,7 @@
               <Color>#FF8A8A8A</Color>
               <CornerRadius>0</CornerRadius>
               <Inverse_direction>False</Inverse_direction>
-              <Location>0,0</Location>
+              <Location>107,0</Location>
               <Size>3,1050</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -4074,7 +4086,7 @@
               <UseBackground>True</UseBackground>
               <UseParserDictionary>True</UseParserDictionary>
               <ScalingMode>Height</ScalingMode>
-              <Location>74,93</Location>
+              <Location>181,93</Location>
               <Size>420,55</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -4101,7 +4113,7 @@
               <UseBackground>False</UseBackground>
               <UseParserDictionary>False</UseParserDictionary>
               <ScalingMode>Height</ScalingMode>
-              <Location>69,93</Location>
+              <Location>176,93</Location>
               <Size>420,55</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -4128,7 +4140,7 @@
               <UseBackground>True</UseBackground>
               <UseParserDictionary>False</UseParserDictionary>
               <ScalingMode>Height</ScalingMode>
-              <Location>74,39</Location>
+              <Location>181,39</Location>
               <Size>420,55</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -4137,13 +4149,13 @@
               <Image>MadKreator37\AH-6J\Bezels_And_Faces\TNL3100.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>13,11</Location>
+              <Location>120,11</Location>
               <Size>640,336</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="tnl nav" SnapTarget="True" Locked="False">
-              <Location>104,196</Location>
+              <Location>211,196</Location>
               <Size>61,35</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4152,7 +4164,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="tnl wpt" SnapTarget="True" Locked="False">
-              <Location>192,196</Location>
+              <Location>299,196</Location>
               <Size>61,35</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4161,7 +4173,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="tnl apt vor" SnapTarget="True" Locked="False">
-              <Location>279,196</Location>
+              <Location>386,196</Location>
               <Size>61,35</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4170,7 +4182,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="tnl direct" SnapTarget="True" Locked="False">
-              <Location>391,196</Location>
+              <Location>498,196</Location>
               <Size>61,35</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4179,7 +4191,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="tnl fpl" SnapTarget="True" Locked="False">
-              <Location>104,249</Location>
+              <Location>211,249</Location>
               <Size>61,35</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4188,7 +4200,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="tnl calc" SnapTarget="True" Locked="False">
-              <Location>192,249</Location>
+              <Location>299,249</Location>
               <Size>61,35</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4197,7 +4209,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="tnl aux" SnapTarget="True" Locked="False">
-              <Location>279,249</Location>
+              <Location>386,249</Location>
               <Size>61,35</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4206,7 +4218,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="tnl mdg" SnapTarget="True" Locked="False">
-              <Location>390,249</Location>
+              <Location>497,249</Location>
               <Size>61,35</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4215,7 +4227,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="tnl ent" SnapTarget="True" Locked="False">
-              <Location>507,109</Location>
+              <Location>614,109</Location>
               <Size>61,35</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4224,7 +4236,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="tnl on off" SnapTarget="True" Locked="False">
-              <Location>509,27</Location>
+              <Location>616,27</Location>
               <Size>60,60</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\Knob_3.png</KnobImage>
@@ -4241,7 +4253,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="tnl outer knob" SnapTarget="True" Locked="False">
-              <Location>466,176</Location>
+              <Location>573,176</Location>
               <Size>148,148</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\TNL_Outer.png</KnobImage>
@@ -4255,7 +4267,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="tnl inner knob" SnapTarget="True" Locked="False">
-              <Location>504,211</Location>
+              <Location>611,211</Location>
               <Size>74,74</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\TNL_Inner.png</KnobImage>
@@ -4272,7 +4284,7 @@
               <Image>MadKreator37\AH-6J\Bezels_And_Faces\Armament_Panel.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>14,349</Location>
+              <Location>121,349</Location>
               <Size>640,209</Size>
               <Hidden>False</Hidden>
               <Children />
@@ -4281,13 +4293,13 @@
               <Image>MadKreator37\AH-6J\Bezels_And_Faces\CMWS.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>14,560</Location>
+              <Location>121,560</Location>
               <Size>640,218</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="L pwr" SnapTarget="True" Locked="False">
-              <Location>108,421</Location>
+              <Location>215,421</Location>
               <Size>20,77</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4299,7 +4311,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="L arm" SnapTarget="True" Locked="False">
-              <Location>193,421</Location>
+              <Location>300,421</Location>
               <Size>20,77</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4311,7 +4323,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="L clear" SnapTarget="True" Locked="False">
-              <Location>278,421</Location>
+              <Location>385,421</Location>
               <Size>20,77</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4323,7 +4335,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="R pwr" SnapTarget="True" Locked="False">
-              <Location>370,421</Location>
+              <Location>477,421</Location>
               <Size>20,77</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4335,7 +4347,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="R arm" SnapTarget="True" Locked="False">
-              <Location>455,421</Location>
+              <Location>562,421</Location>
               <Size>20,77</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4347,7 +4359,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="R clear" SnapTarget="True" Locked="False">
-              <Location>541,421</Location>
+              <Location>648,421</Location>
               <Size>20,77</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4359,7 +4371,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="cmws arm" SnapTarget="True" Locked="False">
-              <Location>231,579</Location>
+              <Location>338,579</Location>
               <Size>20,77</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4371,7 +4383,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="flare bttn" SnapTarget="True" Locked="False">
-              <Location>447,590</Location>
+              <Location>554,590</Location>
               <Size>50,50</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4380,7 +4392,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="rwr power" SnapTarget="True" Locked="False">
-              <Location>144,695</Location>
+              <Location>251,695</Location>
               <Size>20,77</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4392,7 +4404,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="dscrm" SnapTarget="True" Locked="False">
-              <Location>378,695</Location>
+              <Location>485,695</Location>
               <Size>20,77</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4404,7 +4416,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="rwr vol" SnapTarget="True" Locked="False">
-              <Location>471,696</Location>
+              <Location>578,696</Location>
               <Size>80,80</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\Audio_Knob.png</KnobImage>
@@ -4424,13 +4436,13 @@
               <Image>MadKreator37\AH-6J\Bezels_And_Faces\Monitor_Panel.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>14,781</Location>
+              <Location>121,781</Location>
               <Size>640,259</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="ics vol" SnapTarget="True" Locked="False">
-              <Location>77,783</Location>
+              <Location>184,783</Location>
               <Size>89,89</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\Knob_3.png</KnobImage>
@@ -4447,7 +4459,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="ics mon 1" SnapTarget="True" Locked="False">
-              <Location>172,811</Location>
+              <Location>279,811</Location>
               <Size>54,54</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\Knob_3.png</KnobImage>
@@ -4464,7 +4476,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="ics mon 2" SnapTarget="True" Locked="False">
-              <Location>233,811</Location>
+              <Location>340,811</Location>
               <Size>54,54</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\Knob_3.png</KnobImage>
@@ -4481,7 +4493,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="ics mon 3" SnapTarget="True" Locked="False">
-              <Location>294,811</Location>
+              <Location>401,811</Location>
               <Size>54,54</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\Knob_3.png</KnobImage>
@@ -4498,7 +4510,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="ics mon 4" SnapTarget="True" Locked="False">
-              <Location>357,811</Location>
+              <Location>464,811</Location>
               <Size>54,54</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\Knob_3.png</KnobImage>
@@ -4515,7 +4527,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="ics mon 5" SnapTarget="True" Locked="False">
-              <Location>418,811</Location>
+              <Location>525,811</Location>
               <Size>54,54</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\Knob_3.png</KnobImage>
@@ -4532,7 +4544,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="ics nav a" SnapTarget="True" Locked="False">
-              <Location>477,811</Location>
+              <Location>584,811</Location>
               <Size>54,54</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\Knob_3.png</KnobImage>
@@ -4549,7 +4561,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="ics nav b" SnapTarget="True" Locked="False">
-              <Location>539,811</Location>
+              <Location>646,811</Location>
               <Size>54,54</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\Knob_3.png</KnobImage>
@@ -4566,7 +4578,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Potentiometer" Name="ics vox" SnapTarget="True" Locked="False">
-              <Location>329,902</Location>
+              <Location>436,902</Location>
               <Size>54,54</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37\AH-6J\Buttons_Switches_Knobs\Knob_3.png</KnobImage>
@@ -4583,7 +4595,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="ics select knob" SnapTarget="True" Locked="False">
-              <Location>397,922</Location>
+              <Location>504,922</Location>
               <Size>82,82</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
@@ -4605,7 +4617,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="ics mode knob" SnapTarget="True" Locked="False">
-              <Location>102,950</Location>
+              <Location>209,950</Location>
               <Size>70,70</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
@@ -4623,7 +4635,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="ics mic knob" SnapTarget="True" Locked="False">
-              <Location>525,927</Location>
+              <Location>632,927</Location>
               <Size>77,77</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
@@ -6514,6 +6526,11 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS AH-6J Little Bird (Community Mod)" Name="Fuel Interface.Cutoff Lever.changed" />
+      <Action Target="Visual;Monitor 1.Console.Fuel Valve;Helios.Base.ToggleSwitch;Fuel Valve" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Argus 7000.DEP button;Helios.Base.PushButton;DEP button" Name="closed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS AH-6J Little Bird (Community Mod)" Name="Navigation.push.Argus7000 DEP Button" />
       <StaticValue />
@@ -7091,6 +7108,11 @@
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 1.Radios.186 invisible rotary knob channel wheel activation;Helios.Base.RotarySwitch;186 invisible rotary knob channel wheel activation" Name="position.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS AH-6J Little Bird (Community Mod)" Name="AN ARC 186.set.Channel Wheel" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Console.Fuel Valve;Helios.Base.ToggleSwitch;Fuel Valve" Name="position.changed" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS AH-6J Little Bird (Community Mod)" Name="Fuel Interface.set.Cutoff Lever" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
